@@ -10,14 +10,4 @@ Watson beat the brightest trivia minds at Jeopardy in 2011.
 Can you tell Fido from Mittens in 2013?  
 
 
-## Your task:
-
-1. Train your algorithm on these files and predict the labels (1 = dog, 0 = cat).
-2. Deploy your model (TIP: use heroku)  ! The user must have the possibility to upload a photo to test the model.
-
-
-To load the dataset uses ImageDataGenerator : 
-https://keras.io/preprocessing/image/
-
-
-
+This repository provides you source code to train a deep convolutional neuron network on Kaggle's Dog & Cat dataset. We're not focus on choosing the best CNN network, we just design a network which gives acceptable accuracy. The trained model is then used by a Flask application which allows user to upload an image of dog or cat and have the model predict the image's label.
